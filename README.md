@@ -24,14 +24,6 @@ A modern and responsive Tic Tac Toe game built using **HTML**, **CSS**, and **Ja
 
 ---
 
-## 📸 Preview
-
-<img width="800" alt="Tic Tac Toe Game Screenshot" src="YOUR_SCREENSHOT_URL_HERE">
-
-> Replace the screenshot URL with your game's screenshot after uploading it to GitHub.
-
----
-
 ## 🎮 How to Play
 
 1. Player **O** starts the game.
