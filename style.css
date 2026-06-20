@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFD1BA;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #EB8258;
+    background-color: azure;
+}
+
+#reset-btn {
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #313638;
+    color: azure;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-game-btn {
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #313638;
+    color: azure;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg {
+    color: rgb(248, 1, 154);
+    font-size: 8vmin;
+}
+
+.msg-container {
+    height: 13vmin;
+}
+
+.hide {
+    display: none;
+}
+
+
+.game-header {
+    background: #313638;
+    color: #F5E6CA;
+    padding: 1.2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.game-header h1 {
+    font-size: 2.3rem;
+    margin-bottom: 0.3rem;
+    letter-spacing: 2px;
+}
+
+.game-header p {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+#reset-btn,
+#new-game-btn {
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#reset-btn:hover,
+#new-game-btn:hover {
+    background-color: #EB8258;
+    transform: translateY(-2px);
+}
+
+
+.game-footer {
+    background: #313638;
+    color: #F5E6CA;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.game-footer p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+}
+
+
+@media (max-width: 600px) {
+
+    .game-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .btn-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #reset-btn,
+    #new-game-btn {
+        width: 180px;
+    }
+}
